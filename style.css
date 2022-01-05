@@ -151,31 +151,12 @@ body{
 #experience-text {
    font-size: 40px;
    color: rgb(120, 67, 245);
+   
 }
-@media only screen and (max-width: 500px) {
-    body{
-        width: 100%;
-        height: auto;
-        padding: 70px 0px;
-    }
+hr {
+   margin-left: 2px;
+   width: 130px;
+   margin-top: 3px;
+   border: 4px solid rgb(120, 67, 245);
+   border-radius: 5px;
 }
-    /* For mobile phones: */
-
-    @media(max-width: 575px){
-        .info-part h1{
-                font-size: 25px;
-                letter-spacing: 5px;
-            }
-            .experience-part {
-              flex: 0 0 50%;
-              max-width: 50%;
-           }
-           .dreambig-part{
-            font-size: 25px;
-            letter-spacing: 5px;
-        
-
-           }
-           
-        }
-        
